@@ -38,6 +38,18 @@ p{
 body{
     width: 100%;
 }
+button.normal-btn{
+    font-size: 14px;
+    font-weight: 600px;
+    padding: 15px 30px;
+    color: #000;
+    background-color: #E3E6F2;
+    border-radius: 4px;
+    cursor: pointer;
+    border: none;
+    outline: none;
+    transition: 0.3s ease; 
+}
 
 
 
@@ -227,4 +239,31 @@ body{
     flex-direction: row;
     flex-wrap: wrap;
     
+}
+#banner{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-image: url(../images/banner/b2.jpg);
+    background-size: cover;
+    width: 100%;
+    height: 40vh;
+    background-position: center;
+    h4{
+        color: #E3E6F2;
+        font-size: 16px;
+    }
+    h2{
+        color: #E3E6F2;
+        font-size: 30px;
+        padding: 10px 0;
+    }
+    span{
+        color: crimson;
+    }
+}
+#banner button:hover{
+    background-color: #11746d;
+    color:#fddde4;
 }
