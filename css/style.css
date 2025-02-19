@@ -421,3 +421,53 @@ button.white-btn:hover{
         flex-direction: row;
     }
 }
+#footer{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    h4{
+        font-size: 14px;
+        padding-bottom: 20px;
+    }
+    p{
+        font-size: 14px;
+        margin: 0 0 8px 0;
+    }
+    a{
+        font-size: 14px;
+        text-decoration: none;
+        color: #022;
+        margin-bottom: 10px;
+    }
+    .follow{
+        margin-top: 10px;
+        i{
+            color: #465b52;
+            padding-right: 5px;
+            cursor: pointer;
+        }
+    }
+    .install{
+        img{
+            border: 1px solid #088178;
+            border-radius: 4px;
+            margin: 10px 0;
+
+        }
+    }
+}
+#footer .col{
+    display: flex;
+    flex-direction: column;
+}
+#footer .logo{
+    height: 60px;
+    width: 120px;
+    margin-bottom: 10px;
+}
+.copyright{
+    width: 100%;
+    text-align: center;
+}
+
+
