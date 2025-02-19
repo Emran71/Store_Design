@@ -50,6 +50,18 @@ button.normal-btn{
     outline: none;
     transition: 0.3s ease; 
 }
+button.white-btn{
+    font-size: 14px;
+    font-weight: 600px;
+    padding: 15px 30px;
+    color: #ffffff;
+    background-color: transparent;
+    border-radius: 4px;
+    cursor: pointer;
+    border: 1px solid #ffffff;
+    outline: none;
+    transition: 0.3s ease; 
+}
 
 
 
@@ -266,4 +278,146 @@ button.normal-btn{
 #banner button:hover{
     background-color: #11746d;
     color:#fddde4;
+}
+
+#firstBanner{
+     display: flex;
+     flex-direction: row;
+     flex-wrap: wrap;
+     justify-content: center;
+     gap: 20px;
+
+    .bannerBox{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: start;
+        padding: 33px;
+        background-image: url(../images/banner/b17.jpg);
+        background-size: cover;
+        min-width:560px;
+        height: 50vh;
+        background-position: center;
+        transition: 0.4s ease;
+        box-shadow: 10px 15px 20px rgb(0,0,0,0.3);
+        h4{
+            color: #fff;
+            font-size: 18px;
+            font-weight: 300;
+        }
+        h2{
+            color: #E3E6F2;
+            font-size: 28px;
+            font-weight: 800;
+        }
+        span{
+            color: #fff;
+            font-size: 14px;
+            font-weight: 500;
+            padding-bottom: 10px;
+        }
+ }
+  .bannerBox2{
+    background-image: url(../images/banner/b10.jpg);
+    transition: 0.4s ease;
+    box-shadow: 10px 15px 20px rgb(0,0,0,0.3);
+ }
+    
+}
+button.white-btn:hover{
+    background-color: #11746d;
+    color:#fddde4;
+}
+#firstBanner .bannerBox:hover{
+    box-shadow: 10px 15px 20px rgb(0,0,0,0.6);
+}
+
+#Second-banner{
+
+            display: flex;
+            flex-direction: row;
+            flex-wrap: wrap;
+            align-items: center;
+            gap: 20px;
+            padding: 0 82px;
+            .bannerBox{
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+                align-items: start;
+                padding: 33px;
+                background-image: url(../images/banner/b7.jpg);
+                background-size: cover;
+                min-width:28%;
+                height: 35vh;
+                margin: 20px;
+                padding: 20px;
+                background-position: center;
+                transition: 0.4s ease;
+                box-shadow: 10px 15px 20px rgb(0,0,0,0.3);
+                h2{
+                    color: #FEF9E1;
+                    font-size: 23px;
+                    font-weight: 900;
+                }
+                h3{
+                    color: #bb0000;
+                    font-size: 18px;
+                    font-weight: 700;
+                }
+            }
+            .box1{
+                background-image: url(../images/banner/b4.jpg);
+            }
+            .box2{
+                background-image: url(../images/banner/b18.jpg);
+            }
+
+}
+#newsletter{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+    background-image: url(../images/banner/b1.jpg);
+    background-repeat: no-repeat;
+    background-size: 100% 25vh;
+    .newsText{
+        h4{
+        font-size: 25px;
+        font-weight: 700;
+        color:#fff;
+       }
+       p{
+        font-size: 16px;
+        font-weight: 600;
+        color:#a19c9c;
+        span{
+            color: rgb(230, 230, 17);
+        }
+       }
+    }
+    input{
+        height: 3.125rem;
+        padding: 0 1.25em;
+        font-size: 15px;
+        width:350px;
+        border: 1px solid transparent;
+        border-radius: 4px;
+        outline: none;
+        border-top-right-radius: 0;
+        border-bottom-right-radius: 0;
+    }
+    button{
+         color: #fff;
+         background-color: #11746d;
+         white-space: nowrap;
+         border-top-left-radius: 0;
+        border-bottom-left-radius: 0;
+    }
+    .form{
+        display: flex;
+        flex-direction: row;
+    }
 }
